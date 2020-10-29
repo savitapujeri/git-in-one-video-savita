@@ -1,0 +1,130 @@
+.appservice
+	{
+background: orange;
+    padding: 8px 10px;
+	margin-top:0px;
+	color:white;
+	}
+	
+	.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+#mixedSlider .myslider-images {
+    min-height: 300px;
+}
+
+.welcome {
+    color: #ff9528 !important;
+	font-size: 51px !important;
+   font-family: 'Open Sans', sans-serif;
+	    line-height: 1;
+}
+.mtop
+{
+margin-top:180px;
+}
+@media only screen and (max-width: 600px) {
+.mtop
+{
+margin-top:0px;
+}
+}
+
+.stureview .fa-angle-left:before, .stureview .fa-angle-right:before {
+    background: #ff9528;
+    color: #005594;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+	text-align:center;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 0px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.callBack {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #005594;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 1;
+    padding: 10px 8px;
+	
+    margin: 0 auto;
+    text-align: center;
+}
+#mobenq {
+    padding: 00px 10px;
+    background: #005594;
+    position: fixed;
+    bottom: 57px;
+    right: 0px;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    border: 2px solid orange;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .callBack {
+   display:none;
+  }
+}
